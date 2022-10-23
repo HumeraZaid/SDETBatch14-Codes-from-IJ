@@ -1,0 +1,31 @@
+package Class15;
+
+public class LocalVarDemo {
+
+    static String name = "Confused";
+
+    public static void main(String[] args) {
+        int number = 0;
+        System.out.println();
+
+        // System.out.println(name);
+
+        // local variables are defined inside blocks of code and can only be used inside those blocks
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+           // System.out.println(HondaBike.noOfTyres);
+        }
+        {
+            int i = 0;
+        }
+        //  System.out.println(i);
+    }
+
+        void printNumber()
+        {
+            int number = 4;
+            System.out.println(number);
+            String name = "Allan";
+        }
+}
