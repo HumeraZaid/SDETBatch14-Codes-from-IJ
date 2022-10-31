@@ -2,7 +2,7 @@ package Class24;
 
 import java.util.ArrayList;
 
-public class HW_ArrayList {
+public class HW1_ArrayList {
 
     /* Create an ArrayList that will store 5 names into it.
        Find out whether the given ArrayList is empty or not?
