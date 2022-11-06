@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class HW3_EvenNumbers {
 
-    /* Create an arrayList of even numbers from 1 to 500.
-       Remove any number that is divisible by 5 from that arrayList.
+    /* Create an ArrayList of even numbers from 1 to 500.
+       Remove any number that is divisible by 5 from that ArrayList.
      */
 
     public static void main(String[] args) {
