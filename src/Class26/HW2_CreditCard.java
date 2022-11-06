@@ -74,7 +74,7 @@ class Visa extends Card{
 
     public void paymentDue()
     {
-        System.out.println("Payment of $" + balance + " on your " + cardName + " card is due on 11/20/2022" + ".");
+        System.out.println("Payment of $" + balance + " on your " + cardName + " card is due on 11/25/2022" + ".");
     }
 }
 
@@ -87,6 +87,6 @@ class MasterCard extends Card{
 
     public void paymentDue()
     {
-        System.out.println("Payment of $" + balance + " on your " + cardName + " card is due on 11/20/2022" + ".");
+        System.out.println("Payment of $" + balance + " on your " + cardName + " card is due on 11/28/2022" + ".");
     }
 }
