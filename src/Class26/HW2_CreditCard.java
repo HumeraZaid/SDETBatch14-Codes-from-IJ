@@ -8,7 +8,7 @@ public class HW2_CreditCard {
        and a constructor that will initialize credit card type.
        Create 3 subclasses of the Card class.
        Create 3 objects of different card and store them into LinkedList.
-       Using for loop/advanced for loop/ iterator access all methods of the class.
+       Using for loop / advanced for loop / iterator access all methods of the class.
      */
 
     public static void main(String[] args) {
@@ -54,7 +54,7 @@ abstract class Card{
 
 class Amex extends Card{
 
-    Amex(String cardName, int balance)
+    Amex(String cardName, double balance)
     {
         super(cardName, balance);
     }

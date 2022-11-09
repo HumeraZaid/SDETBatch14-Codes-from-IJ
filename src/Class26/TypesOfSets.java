@@ -12,7 +12,7 @@ public class TypesOfSets {
 
         /*
             HashSet:
-            Upside --> It is the fastest type of Set
+            Upside --> It is the fastest type of set
             Downside --> HashSet does not care about the insertion order
          */
 
@@ -26,7 +26,12 @@ public class TypesOfSets {
         System.out.println("HashSet");
         System.out.println(hashSet);
 
-        // Insertion speed of LinkedHastSet is same as HashSet, but retrieval speed is the worst
+        /*
+            LinkedHashSet:
+            Upside --> LinkedHashSet cares about the insertion order. Values are retrieved in the same order as they are inserted.
+            Downside --> Insertion speed of LinkedHastSet is same as HashSet, but retrieval speed is the worst
+         */
+
         LinkedHashSet<String> linkedHashSet = new LinkedHashSet<>();
         linkedHashSet.add("Mango");
         linkedHashSet.add("Apple");
@@ -37,7 +42,7 @@ public class TypesOfSets {
         System.out.println("LinkedHashSet");
         System.out.println(linkedHashSet);
 
-        // Whenever you need sorted data, use TreeSet
+        // TreeSet retrieves values in their natural/alphabetical/sorted order. Whenever you need sorted data, use TreeSet.
         TreeSet<String> treeSet = new TreeSet<>();
         treeSet.add("Mango");
         treeSet.add("Apple");
