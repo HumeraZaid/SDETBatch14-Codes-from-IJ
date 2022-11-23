@@ -1,7 +1,7 @@
 package Class29;
 
-import Utils.ConfigReader;
-import Utils.ExcelReader;
+import utils.ConfigReader;
+import utils.ExcelReader;
 
 import java.io.IOException;
 

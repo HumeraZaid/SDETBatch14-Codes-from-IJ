@@ -1,6 +1,6 @@
 package Class30;
 
-import Utils.ExcelReader;
+import utils.ExcelReader;
 
 import java.io.IOException;
 
