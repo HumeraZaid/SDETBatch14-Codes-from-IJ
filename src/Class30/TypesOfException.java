@@ -2,8 +2,6 @@ package Class30;
 
 import utils.ExcelReader;
 
-import java.io.IOException;
-
 public class TypesOfException {
 
     public static void main(String[] args) {
@@ -20,7 +18,7 @@ public class TypesOfException {
             System.out.println(arr[index]);
         }
         catch (Exception e) {
-            System.out.println("Josh please fix your issues you never write good code");
+            System.out.println("Josh please fix your issues, you never write good code");
         }
         if(index < arr.length)
         {
@@ -30,11 +28,11 @@ public class TypesOfException {
         try {
             System.out.println(ExcelReader.read("Data/Test.xlsx"));
         }
-        catch (IOException e) {
-            System.out.println("Josh can you please stop deleting my files");
-        }
         catch (NullPointerException e) {
 
+        }
+        catch (Exception e) {
+            System.out.println("Josh can you please stop deleting my files?");
         }
 
         System.out.println("Important line of code");

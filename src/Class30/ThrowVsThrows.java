@@ -1,12 +1,8 @@
 package Class30;
 
-import utils.ExcelReader;
-
-import java.io.IOException;
-
 public class ThrowVsThrows {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
 
         method2();
     }
@@ -25,5 +21,5 @@ public class ThrowVsThrows {
     public static void method2() {
         method1();
     }
-
+*/
 }

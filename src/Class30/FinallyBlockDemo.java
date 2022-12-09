@@ -12,7 +12,7 @@ public class FinallyBlockDemo {
             System.out.println(name.length());
         }
         finally {
-            System.out.println("This Block is always executed no matter what");
+            System.out.println("This block is always executed no matter what");
         }
 
         System.out.println("1");
